@@ -17,5 +17,7 @@ This program:
 - try / except
 - Functions
 
+## How to Run
+
 ## Author
 Burak Bekircan
