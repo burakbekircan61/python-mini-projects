@@ -1,11 +1,16 @@
 name = input("Adınız nedir? ")
-age = int(input("Kaç yaşındasınız? "))
 
-print("Merhaba", name)
+try:
+    age = int(input("Kaç yaşındasınız? "))
 
-if age >= 18:
-    print(name, "reşitsiniz.")
-else:
-    print(name, "reşit değilsiniz.")
+    print("Merhaba", name)
 
-print(name, "GitHub'daki ilk Python programınızı çalıştırıyorsunuz!")
+    if age >= 18:
+        print(name, "reşitsiniz.")
+    else:
+        print(name, "reşit değilsiniz.")
+
+    print(name, "GitHub'daki ilk Python programınızı çalıştırıyorsunuz!")
+
+except ValueError:
+    print("Lütfen yaşınızı sayı olarak giriniz.")
