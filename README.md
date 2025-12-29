@@ -1,2 +1,5 @@
-# python-mini-projects
-Small Python projects for learning and practice
+# Python Mini Projects
+
+This repository contains small Python projects created for learning purposes.
+
+Author: Burak Bekircan
